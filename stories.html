@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stories | SURUDEV</title>
+    <meta name="description" content="Read field notes and stories from SURUDEV’s conservation, agricultural, and community resilience work in Cameroon." />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <script src="js/main.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <script src="js/search.js" defer></script>
+    <script src="js/filters.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="SURUDEV home">
+          <span class="brand-mark">SR</span>
+          <span class="brand-text"><small>Sustainable Run</small><strong>for Development</strong></span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="about.html">About</a>
+          <a href="work.html">Our Work</a>
+          <a href="impact.html">Impact</a>
+          <a href="projects.html">Projects</a>
+          <a href="stories.html" class="active">Stories</a>
+          <a href="get-involved.html">Get Involved</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+          <a class="btn btn-primary" href="get-involved.html">Support Our Work</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <div class="container">
+          <div class="breadcrumbs"><a href="index.html">Home</a><span> / </span><span>Stories</span></div>
+          <div class="page-hero-inner reveal">
+            <div>
+              <p class="section-label">Stories</p>
+              <h1>Field notes from the work on the ground.</h1>
+              <p class="lead">SURUDEV’s stories highlight how conservation, agriculture, climate resilience, and community action are connected in everyday life.</p>
+            </div>
+            <div class="page-hero-image reveal">
+              <img src="assets/community.svg" alt="Community environmental work" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="search-box reveal">
+            <input type="search" data-search-input placeholder="Search stories" aria-label="Search stories" />
+          </div>
+          <div class="filter-bar reveal" data-filter-bar>
+            <button class="filter-btn is-active" type="button" data-filter-button="all">All</button>
+            <button class="filter-btn" type="button" data-filter-button="conservation">Conservation</button>
+            <button class="filter-btn" type="button" data-filter-button="agriculture">Agriculture</button>
+            <button class="filter-btn" type="button" data-filter-button="climate">Climate</button>
+            <button class="filter-btn" type="button" data-filter-button="community">Community</button>
+            <button class="filter-btn" type="button" data-filter-button="education">Education</button>
+          </div>
+
+          <div class="news-grid">
+            <article class="card news-item reveal" data-search-item data-filter-item="conservation">
+              <div class="card-media"><img src="assets/restoration.svg" alt="Forest conservation story" /></div>
+              <div class="card-body">
+                <span class="badge">Conservation</span>
+                <div class="card-meta">Field note</div>
+                <h3 class="card-title">Restoring biodiversity through community stewardship</h3>
+                <p>How ward-level community action helps protect habitats and recover degraded landscapes.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+
+            <article class="card news-item reveal" data-search-item data-filter-item="agriculture">
+              <div class="card-media"><img src="assets/farm.svg" alt="Agroecology story" /></div>
+              <div class="card-body">
+                <span class="badge">Agriculture</span>
+                <div class="card-meta">Story</div>
+                <h3 class="card-title">Agroecology as a practical path to food security</h3>
+                <p>Farmers are rebuilding soil health and strengthening local food systems through better methods.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+
+            <article class="card news-item reveal" data-search-item data-filter-item="community">
+              <div class="card-media"><img src="assets/community-2.svg" alt="Community development story" /></div>
+              <div class="card-body">
+                <span class="badge">Community</span>
+                <div class="card-meta">Interview</div>
+                <h3 class="card-title">Local action keeps recovery grounded in everyday life</h3>
+                <p>Conservation and livelihoods become far more durable when they are shaped by people directly.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+
+            <article class="card news-item reveal" data-search-item data-filter-item="education">
+              <div class="card-media"><img src="assets/education.svg" alt="Environmental education story" /></div>
+              <div class="card-body">
+                <span class="badge">Education</span>
+                <div class="card-meta">Update</div>
+                <h3 class="card-title">Environmental awareness and youth engagement</h3>
+                <p>Learning that connects classrooms, families, and local landscapes.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+
+            <article class="card news-item reveal" data-search-item data-filter-item="climate">
+              <div class="card-media"><img src="assets/climate.svg" alt="Climate adaptation story" /></div>
+              <div class="card-body">
+                <span class="badge">Climate</span>
+                <div class="card-meta">Perspective</div>
+                <h3 class="card-title">Building resilience in a changing environment</h3>
+                <p>Adaptation must be local, practical, and grounded in the realities of communities and land.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+
+            <article class="card news-item reveal" data-search-item data-filter-item="conservation">
+              <div class="card-media"><img src="assets/wildlife.svg" alt="Wildlife conservation field story" /></div>
+              <div class="card-body">
+                <span class="badge">Conservation</span>
+                <div class="card-meta">Research</div>
+                <h3 class="card-title">Monitoring species and habitats in biodiversity hotspots</h3>
+                <p>Research work helps document the environmental conditions that shape long-term protection.</p>
+                <a class="card-link" href="story-detail.html">Read story</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="brand" href="index.html" aria-label="SURUDEV home" style="margin-bottom: 1rem; color: var(--color-white);">
+              <span class="brand-mark">SR</span>
+              <span class="brand-text"><small>Sustainable Run</small><strong>for Development</strong></span>
+            </a>
+            <p>Restoring nature. Strengthening communities. Building a sustainable future.</p>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul class="inline-list" style="margin-top: .5rem;">
+              <li><a href="about.html">About</a></li>
+              <li><a href="work.html">Our work</a></li>
+              <li><a href="impact.html">Impact</a></li>
+              <li><a href="stories.html">Stories</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Get involved</h4>
+            <ul class="inline-list" style="margin-top: .5rem;">
+              <li><a href="get-involved.html">Donate</a></li>
+              <li><a href="partner.html">Partner</a></li>
+              <li><a href="resources.html">Resources</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul class="inline-list" style="margin-top: .5rem;">
+              <li><a href="mailto:contact@surudev.org">contact@surudev.org</a></li>
+              <li><a href="tel:+237675957685">+237 675 957 685</a></li>
+              <li>Ms. Ngeng Junction, Bamenda</li>
+              <li>Northwest Cameroon</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 SURUDEV.</span>
+          <span>Built for community-centered environmental action.</span>
+        </div>
+      </div>
+    </footer>
+    <button class="btn btn-primary floating-back" type="button" data-back-to-top aria-label="Back to top">Top</button>
+  </body>
+</html>

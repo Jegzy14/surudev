@@ -1,0 +1,18 @@
+.fade-up { opacity: 0; transform: translateY(18px); transition: opacity .7s ease, transform .7s ease; }
+.fade-up.is-visible { opacity: 1; transform: translateY(0); }
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(77,141,98,.22); }
+  50% { box-shadow: 0 0 0 12px rgba(77,141,98,0); }
+}
+
+.stat-panel strong,
+.btn,
+.card,
+.brand-mark,
+.work-card,
+.story-highlight {
+  animation-fill-mode: both;
+}
+
+.stat-panel strong { animation: pulseGlow 1.4s ease-in-out infinite; }
